@@ -1,0 +1,101 @@
+body {
+  background-color: bisque;
+}
+.updown {
+  border: 2px solid black;
+  width: 0.01px;
+  height: 100px;
+  vertical-align: middle;
+}
+
+.head {
+  text-align: center;
+  size: 30;
+}
+span #yourscore {
+  font: 200;
+  padding-right: 100;
+}
+
+.head span #comscore {
+  font: 200;
+}
+
+.item-wrap {
+  display: block;
+  font-size: 0;
+  margin: 0 -5px;
+}
+.you {
+  position: relative;
+}
+
+.com {
+  position: relative;
+  right: 4px;
+}
+
+.buttons {
+  width: 100px;
+  height: 100px;
+  border-radius: 70%;
+  overflow: hidden;
+}
+
+/* img.rock {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+img.scissors {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+img.paper {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.container2 {
+  text-align: center;
+}
+
+.row {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  text-align: center;
+}
+
+.rock {
+  border-radius: 25px;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 4px 0 rgb(0, 0, 0, 0.5);
+}
+
+.scissors {
+  border-radius: 25px;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 4px 0 rgb(0, 0, 0, 0.5);
+}
+
+.img-responsive img-rounded {
+  object-fit: cover;
+  width: 50px;
+}
+
+.paper {
+  border-radius: 25px;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 4px 0 rgb(0, 0, 0, 0.5);
+}
